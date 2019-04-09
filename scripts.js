@@ -2,9 +2,9 @@
 const k = 10;
 let x = 0;
 let fullList = []
+const content = document.getElementById('content')
 
 const updateList = () =>{
-  const content = document.getElementById('content')
   content.innerHTML = fullList.slice(x*k, k*(x+1)).reduce((acc, e) => {
   acc += `<article><h2><span> ${e.Title} </span></h2><p> ${e.Description} </p> </article>`
   return acc
