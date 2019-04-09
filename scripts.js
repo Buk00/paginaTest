@@ -26,3 +26,6 @@ const next = () => {
   content.innerHTML = `<img src="https://media1.tenor.com/images/7e77e0a227b7270cf65601afd5e39339/tenor.gif?itemid=12901256" class="cr7" alt="Milan Juventus Ronaldo GIF - MilanJuventus Ronaldo Happy GIFs"/>`
   setTimeout( function () {updateList()}, 3200)
 }
+
+
+
