@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 const k = 10;
 let x = 0;
 let fullList = []
@@ -28,13 +28,4 @@ const next = () => {
 }
 
 
-
-
-
-
-
-
-
-=======
->>>>>>> origin
 
